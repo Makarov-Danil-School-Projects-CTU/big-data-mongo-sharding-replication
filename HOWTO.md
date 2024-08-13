@@ -1,4 +1,4 @@
-# Návod ke zprovoznění semestrální práce
+# Instruction
 
 docker-compose up -d && ./commands.sh
 
