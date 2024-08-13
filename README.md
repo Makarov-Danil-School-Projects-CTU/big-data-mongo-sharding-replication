@@ -1,4 +1,4 @@
-Keywords: Mongo, Docker compose, Database Replication and Sharding
+Keywords: Mongo, Docker Compose, Replication, Sharding, Clustering
 
 ## 📋 Task: Create 15 Non-Trivial Queries:
 
