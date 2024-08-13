@@ -1,0 +1,26 @@
+#15 Find all blocks where more than 50% of rooms are fully occupied. 
+
+db.rooms.aggregate([
+    {
+        $addFields: {
+            isFullyOccupied: { $eq: [{ $size: "$currentOccupancy" }, "$maxCapacity"] }
+        }
+    },
+    {
+        $group: {
+            _id: "$block",
+            totalRooms: { $sum: 1 },
+            fullyOccupiedRooms: { $sum: { $cond: ["$isFullyOccupied", 1, 0] } },
+        }
+    },
+    {
+        $addFields: {
+            occupancyRate: { $divide: ["$fullyOccupiedRooms", "$totalRooms"] }
+        }
+    },
+    {
+        $match: {
+            occupancyRate: { $gt: 0.50 }
+        }
+    },
+])

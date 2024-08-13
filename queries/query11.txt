@@ -1,0 +1,45 @@
+#11 Select all visitor younger than DOB 2002 and who invited them. Use projection on firstName, lastName, gender, address, phoneNumber, purpose and add some info about who invited them
+
+db.visitors.aggregate([
+  {
+    $lookup: {
+      from: "students",
+      localField: "studentId",
+      foreignField: "_id",
+      as: "invitedBy"
+    }  
+  },
+  {
+    $match: {
+      gender: 'Female',
+      DOB: {
+          $gt: new Date("2002-12-31")
+      }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      firstName: 1,
+      lastName: 1,
+      gender: 1,
+      emailAddress: 1,
+      phoneNumber: 1,
+      purpose: 1,
+      invitedBy: {
+        $map: {
+          input: "$invitedBy",
+          as: "student",
+          in: {
+              firstName: "$$student.firstName",
+              lastName: "$$student.lastName",
+              nationality: "$$student.nationality",
+              DOB: "$$student.DOB",
+              roomNumber: "$$student.roomNumber",
+              block: "$$student.block",
+          }
+        }
+      }
+    }
+  }
+]);

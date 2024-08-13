@@ -1,0 +1,40 @@
+#9 Select all visitors that were invited more than once by students. Add information about students who invited them
+
+db.visitors.aggregate([
+  {
+    $lookup: {
+      from: "students",
+      localField: "studentId",
+      foreignField: "_id",
+      as: "invitedBy"
+    }  
+  },
+  {
+     $match: {
+            $expr: {
+                $gt: [{ $size: "$invitedBy" }, 2]
+            }
+        }
+  },
+  {
+    $project: {
+      _id: 0,
+      "visitorsFirstName": "$firstName",
+      "visitorsLastName": "$lastName",
+      invitedBy: {
+        $map: {
+          input: "$invitedBy",
+          as: "student",
+          in: {
+              firstName: "$$student.firstName",
+              lastName: "$$student.lastName",
+              nationality: "$$student.nationality",
+              DOB: "$$student.DOB",
+              roomNumber: "$$student.roomNumber",
+              block: "$$student.block",
+          }
+        }
+      }
+    }
+  }
+])

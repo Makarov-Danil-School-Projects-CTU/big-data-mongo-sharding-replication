@@ -1,0 +1,35 @@
+# Select services from 'maintenanceRequests' which have status in progress. Also, result must contain student's first and last name, block, roomNumber and status
+
+db.maintenanceRequests.aggregate(
+  {
+    $lookup: {
+      from: "students",
+      localField: "studentID",
+      foreignField: "_id",
+      as: "student"
+    }
+  },
+  {
+     $lookup: {
+      from: "rooms",
+      localField: "roomID",
+      foreignField: "_id",
+      as: "room"
+    }
+  },
+  {
+    $match: {
+      status: "In progress"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      firstName: { $arrayElemAt: ["$student.firstName", 0] },
+      lastName: { $arrayElemAt: ["$student.lastName", 0] },
+      block: { $arrayElemAt: ["$room.block", 0] },
+      roomNumber: { $arrayElemAt: ["$room.roomNumber", 0] },
+      status: 1
+    }
+  }
+)

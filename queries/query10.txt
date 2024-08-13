@@ -1,0 +1,22 @@
+#10 Select blocks which have rooms with 'Electric Kettle', 'Washbasin', 'Heater', 'Toaster', 'Air Conditioning' at the same time
+
+db.rooms.aggregate([
+    {
+        $match: {
+            amenities: {
+                $all: ["Electric Kettle", "Washbasin", "Heater", "Toaster", "Air Conditioning"]
+            }
+        }
+    },
+    {
+        $group: {
+            _id: "$block"
+        }
+    },
+    {
+        $project: {
+            block: "$_id",
+            _id: 0
+        }
+    }
+]);

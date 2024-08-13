@@ -1,0 +1,14 @@
+#6 Group students by university and list their room numbers
+
+db.students.aggregate([
+    {
+        $group: {
+            _id: "$university",
+            rooms: { 
+                $push: {
+                    $concat: ["$block", { $toString: "$roomNumber" }]
+                } 
+            }
+        }
+    }
+]);

@@ -1,0 +1,3 @@
+#3 Select rooms which have both 'Air Conditioning' and 'Toilet'. Use projection on 'roomNumber' = 1, 'block' = 1, 'amenities' = 1, _id = 0.
+
+db.rooms.find( { amenities: { $all: ["Air Conditioning", "Toilet"] } }, { roomNumber: 1, block: 1, amenities: 1, _id: 0} );

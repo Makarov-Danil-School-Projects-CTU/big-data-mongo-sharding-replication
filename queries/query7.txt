@@ -1,0 +1,37 @@
+#7 List all rooms that are currently fully occupied. Add and information about students that live there: their first and last name, nationality and date of birth
+
+db.rooms.aggregate([
+    {
+        $match: {
+            $expr: {
+                $eq: ["$maxCapacity", { $size: "$currentOccupancy" }]
+            }
+        }
+    },
+    {
+        $lookup: {
+            from: "students",
+            localField: "currentOccupancy",
+            foreignField: "_id",
+            as: "currentOccupancy"
+        }
+    },
+    {
+        $project: {
+            _id: 0,
+            roomNumber: 1, 
+            currentOccupancy: {
+                $map: {
+                    input: "$currentOccupancy",
+                    as: "occupant",
+                    in: {
+                        firstName: "$$occupant.firstName",
+                        lastName: "$$occupant.lastName",
+                        nationality: "$$occupant.nationality",
+                        DOB: "$$occupant.DOB"
+                    }
+                }
+            }
+        }
+    }
+]);

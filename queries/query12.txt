@@ -1,0 +1,15 @@
+#12 Select rooms which have only 'Heater'. Use projection on roomNumber, block and count an actual occupancy
+
+db.rooms.find(
+    {
+        amenities: {
+            $eq: ["Heater"]
+        }
+    },
+    {
+        _id: 0
+        roomNumber: 1,
+        block: 1,
+        occupancyCount: { $size: "$currentOccupancy" },
+    }
+);

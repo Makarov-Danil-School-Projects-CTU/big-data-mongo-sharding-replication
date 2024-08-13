@@ -1,0 +1,26 @@
+#14 Select all 'Bigender' visitors with purpose 'party'. Use projection on their first and last name and date of birth
+
+db.visitors.aggregate([
+  {
+    $lookup: {
+      from: "students",
+      localField: "studentId",
+      foreignField: "_id",
+      as: "residents"
+    }
+  },
+  {
+    $match: {
+      purpose: 'party',
+      gender: 'Bigender'
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      firstName: 1,
+      lastName: 1,
+      DOB: 1
+    }
+  }
+])

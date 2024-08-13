@@ -1,0 +1,736 @@
+[
+  {
+    "roomNumber": 240,
+    "block": "C",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "653541d589fdf8049531c474" }, { "$oid": "653541d589fdf8049531c474" }],
+    "amenities": ["Electric Kettle", "Washbasin", "Heater", "Toaster", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 67,
+    "block": "F",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c3b" },
+      { "$oid": "65354509bf1c88f482915c3c" },
+      { "$oid": "65354509bf1c88f482915c3d" }
+    ],
+    "amenities": ["Heater"]
+  },
+  {
+    "roomNumber": 137,
+    "block": "A",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c3e" }],
+    "amenities": ["Washbasin", "Heater", "Shower", "Fan", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 37,
+    "block": "D",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c3f" },
+      { "$oid": "65354509bf1c88f482915c40" },
+      { "$oid": "65354509bf1c88f482915c41" }
+    ],
+    "amenities": ["Fan", "Shower", "Washbasin", "Air Conditioning", "Toilet"]
+  },
+  {
+    "roomNumber": 79,
+    "block": "C",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c42" }, { "$oid": "65354509bf1c88f482915c43" }],
+    "amenities": ["Air Conditioning", "Washbasin", "Toilet", "Heater"]
+  },
+  {
+    "roomNumber": 235,
+    "block": "C",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c44" },
+      { "$oid": "65354509bf1c88f482915c45" },
+      { "$oid": "65354509bf1c88f482915c46" }
+    ],
+    "amenities": ["Toaster", "Toilet", "Heater", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 511,
+    "block": "B",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c47" },
+      { "$oid": "65354509bf1c88f482915c48" },
+      { "$oid": "65354509bf1c88f482915c49" }
+    ],
+    "amenities": ["Electric Kettle", "Toilet", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 327,
+    "block": "F",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c4a" },
+      { "$oid": "65354509bf1c88f482915c4b" },
+      { "$oid": "65354509bf1c88f482915c4c" }
+    ],
+    "amenities": ["Toaster"]
+  },
+  {
+    "roomNumber": 109,
+    "block": "A",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c4d" },
+      { "$oid": "65354509bf1c88f482915c4e" },
+      { "$oid": "65354509bf1c88f482915c4f" }
+    ],
+    "amenities": ["Shower", "Heater", "Fan", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 168,
+    "block": "D",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c50" }, { "$oid": "65354509bf1c88f482915c51" }],
+    "amenities": ["Heater", "Toaster", "Fan", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 526,
+    "block": "F",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c52" }, { "$oid": "65354509bf1c88f482915c53" }],
+    "amenities": ["Electric Kettle", "Washbasin", "Toaster", "Heater", "Shower"]
+  },
+  {
+    "roomNumber": 482,
+    "block": "A",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c54" }, { "$oid": "65354509bf1c88f482915c55" }],
+    "amenities": ["Fan", "Washbasin", "Air Conditioning", "Shower"]
+  },
+  {
+    "roomNumber": 72,
+    "block": "A",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c56" }, { "$oid": "65354509bf1c88f482915c57" }],
+    "amenities": ["Toaster", "Toilet", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 101,
+    "block": "E",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c58" }, { "$oid": "65354509bf1c88f482915c59" }],
+    "amenities": ["Toilet", "Heater", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 343,
+    "block": "A",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c5a" }],
+    "amenities": ["Toaster"]
+  },
+  {
+    "roomNumber": 390,
+    "block": "F",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c5b" },
+      { "$oid": "65354509bf1c88f482915c5c" },
+      { "$oid": "65354509bf1c88f482915c5d" },
+      { "$oid": "65354509bf1c88f482915c5e" }
+    ],
+    "amenities": ["Shower", "Electric Kettle", "Toaster", "Fan", "Washbasin"]
+  },
+  {
+    "roomNumber": 483,
+    "block": "C",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c5f" },
+      { "$oid": "65354509bf1c88f482915c60" },
+      { "$oid": "65354509bf1c88f482915c61" },
+      { "$oid": "65354509bf1c88f482915c62" }
+    ],
+    "amenities": ["Washbasin", "Toaster", "Electric Kettle", "Heater"]
+  },
+  {
+    "roomNumber": 274,
+    "block": "E",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c63" },
+      { "$oid": "65354509bf1c88f482915c64" },
+      { "$oid": "65354509bf1c88f482915c65" }
+    ],
+    "amenities": ["Shower", "Air Conditioning", "Fan", "Toilet"]
+  },
+  {
+    "roomNumber": 489,
+    "block": "C",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c66" },
+      { "$oid": "65354509bf1c88f482915c67" },
+      { "$oid": "65354509bf1c88f482915c68" }
+    ],
+    "amenities": ["Electric Kettle", "Fan", "Toilet", "Air Conditioning", "Shower"]
+  },
+  {
+    "roomNumber": 135,
+    "block": "F",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c69" },
+      { "$oid": "65354509bf1c88f482915c6a" },
+      { "$oid": "65354509bf1c88f482915c6b" }
+    ],
+    "amenities": ["Heater"]
+  },
+  {
+    "roomNumber": 167,
+    "block": "B",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c6c" }],
+    "amenities": ["Air Conditioning", "Toaster", "Toilet", "Washbasin"]
+  },
+  {
+    "roomNumber": 88,
+    "block": "A",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c6d" }, { "$oid": "65354509bf1c88f482915c6e" }],
+    "amenities": ["Washbasin", "Heater", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 348,
+    "block": "D",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c6f" }, { "$oid": "65354509bf1c88f482915c70" }],
+    "amenities": ["Toilet"]
+  },
+  {
+    "roomNumber": 259,
+    "block": "B",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c71" },
+      { "$oid": "65354509bf1c88f482915c72" },
+      { "$oid": "65354509bf1c88f482915c73" }
+    ],
+    "amenities": ["Toaster", "Washbasin"]
+  },
+  {
+    "roomNumber": 490,
+    "block": "E",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c74" },
+      { "$oid": "65354509bf1c88f482915c75" },
+      { "$oid": "65354509bf1c88f482915c76" }
+    ],
+    "amenities": ["Fan", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 216,
+    "block": "B",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c77" }, { "$oid": "65354509bf1c88f482915c78" }],
+    "amenities": ["Washbasin"]
+  },
+  {
+    "roomNumber": 210,
+    "block": "D",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c79" }],
+    "amenities": ["Washbasin", "Air Conditioning", "Heater", "Shower"]
+  },
+  {
+    "roomNumber": 417,
+    "block": "B",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c7a" }],
+    "amenities": ["Air Conditioning", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 111,
+    "block": "D",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c7b" }, { "$oid": "65354509bf1c88f482915c7c" }],
+    "amenities": ["Shower", "Toilet", "Washbasin", "Toaster"]
+  },
+  {
+    "roomNumber": 540,
+    "block": "F",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c7d" }, { "$oid": "65354509bf1c88f482915c7e" }],
+    "amenities": ["Washbasin", "Shower", "Fan", "Electric Kettle", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 395,
+    "block": "A",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c7f" }, { "$oid": "65354509bf1c88f482915c80" }],
+    "amenities": ["Toaster", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 236,
+    "block": "B",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c81" }],
+    "amenities": ["Shower", "Heater", "Fan", "Washbasin"]
+  },
+  {
+    "roomNumber": 435,
+    "block": "E",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c82" }],
+    "amenities": ["Washbasin"]
+  },
+  {
+    "roomNumber": 447,
+    "block": "C",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c83" }, { "$oid": "65354509bf1c88f482915c84" }],
+    "amenities": ["Shower", "Electric Kettle", "Toilet", "Washbasin"]
+  },
+  {
+    "roomNumber": 88,
+    "block": "E",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c85" }, { "$oid": "65354509bf1c88f482915c86" }],
+    "amenities": ["Air Conditioning", "Heater", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 182,
+    "block": "A",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c87" },
+      { "$oid": "65354509bf1c88f482915c88" },
+      { "$oid": "65354509bf1c88f482915c89" }
+    ],
+    "amenities": ["Toilet", "Electric Kettle", "Air Conditioning", "Fan", "Washbasin"]
+  },
+  {
+    "roomNumber": 205,
+    "block": "C",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c8a" }],
+    "amenities": ["Fan", "Heater", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 284,
+    "block": "F",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c8b" },
+      { "$oid": "65354509bf1c88f482915c8c" },
+      { "$oid": "65354509bf1c88f482915c8d" }
+    ],
+    "amenities": ["Air Conditioning", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 94,
+    "block": "C",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c8e" }],
+    "amenities": ["Toaster", "Heater"]
+  },
+  {
+    "roomNumber": 369,
+    "block": "C",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c8f" },
+      { "$oid": "65354509bf1c88f482915c90" },
+      { "$oid": "65354509bf1c88f482915c91" }
+    ],
+    "amenities": ["Heater", "Washbasin", "Toilet"]
+  },
+  {
+    "roomNumber": 362,
+    "block": "A",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c92" },
+      { "$oid": "65354509bf1c88f482915c93" },
+      { "$oid": "65354509bf1c88f482915c94" }
+    ],
+    "amenities": ["Shower", "Electric Kettle", "Toaster"]
+  },
+  {
+    "roomNumber": 277,
+    "block": "E",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c95" },
+      { "$oid": "65354509bf1c88f482915c96" },
+      { "$oid": "65354509bf1c88f482915c97" }
+    ],
+    "amenities": ["Toilet"]
+  },
+  {
+    "roomNumber": 538,
+    "block": "C",
+    "roomType": "Double",
+    "maxCapacity": 2,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c98" }, { "$oid": "65354509bf1c88f482915c99" }],
+    "amenities": ["Toilet", "Electric Kettle", "Fan", "Shower"]
+  },
+  {
+    "roomNumber": 480,
+    "block": "E",
+    "roomType": "Quad",
+    "maxCapacity": 4,
+    "currentOccupancy": [
+      { "$oid": "65354509bf1c88f482915c9a" },
+      { "$oid": "65354509bf1c88f482915c9b" },
+      { "$oid": "65354509bf1c88f482915c9c" }
+    ],
+    "amenities": ["Electric Kettle", "Fan", "Heater", "Washbasin"]
+  },
+  {
+    "roomNumber": 373,
+    "block": "D",
+    "roomType": "Triple",
+    "maxCapacity": 3,
+    "currentOccupancy": [{ "$oid": "65354509bf1c88f482915c9d" }],
+    "amenities": ["Toilet", "Electric Kettle", "Heater"]
+  },
+  {
+    "roomNumber": 126,
+    "block": "E",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Shower", "Electric Kettle", "Fan"]
+  },
+  {
+    "roomNumber": 511,
+    "block": "D",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Electric Kettle"]
+  },
+  {
+    "roomNumber": 543,
+    "block": "B",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Fan", "Heater", "Shower", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 221,
+    "block": "A",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Electric Kettle", "Toilet", "Washbasin"]
+  },
+  {
+    "roomNumber": 518,
+    "block": "D",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Electric Kettle"]
+  },
+  {
+    "roomNumber": 145,
+    "block": "A",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Fan"]
+  },
+  {
+    "roomNumber": 108,
+    "block": "A",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Washbasin", "Heater", "Air Conditioning"]
+  },
+  {
+    "roomNumber": 60,
+    "block": "D",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Heater"]
+  },
+  {
+    "roomNumber": 113,
+    "block": "F",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Electric Kettle", "Toilet", "Shower", "Toaster"]
+  },
+  {
+    "roomNumber": 391,
+    "block": "A",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Shower"]
+  },
+  {
+    "roomNumber": 94,
+    "block": "A",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Washbasin"]
+  },
+  {
+    "roomNumber": 257,
+    "block": "A",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Air Conditioning", "Fan"]
+  },
+  {
+    "roomNumber": 210,
+    "block": "B",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Heater", "Air Conditioning", "Electric Kettle", "Toaster"]
+  },
+  {
+    "roomNumber": 48,
+    "block": "D",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Air Conditioning"]
+  },
+  {
+    "roomNumber": 27,
+    "block": "E",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Heater", "Washbasin", "Toilet", "Fan", "Shower"]
+  },
+  {
+    "roomNumber": 342,
+    "block": "E",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Air Conditioning", "Shower", "Toaster", "Toilet"]
+  },
+  {
+    "roomNumber": 497,
+    "block": "E",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Shower"]
+  },
+  {
+    "roomNumber": 63,
+    "block": "D",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Fan", "Toilet", "Toaster"]
+  },
+  {
+    "roomNumber": 307,
+    "block": "A",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Shower", "Fan"]
+  },
+  {
+    "roomNumber": 317,
+    "block": "D",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Fan"]
+  },
+  {
+    "roomNumber": 161,
+    "block": "E",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Electric Kettle", "Air Conditioning", "Toilet"]
+  },
+  {
+    "roomNumber": 486,
+    "block": "D",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Air Conditioning", "Electric Kettle", "Shower", "Heater"]
+  },
+  {
+    "roomNumber": 208,
+    "block": "B",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster"]
+  },
+  {
+    "roomNumber": 528,
+    "block": "E",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Air Conditioning"]
+  },
+  {
+    "roomNumber": 84,
+    "block": "E",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toilet", "Washbasin"]
+  },
+  {
+    "roomNumber": 129,
+    "block": "E",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Electric Kettle", "Shower", "Fan"]
+  },
+  {
+    "roomNumber": 361,
+    "block": "D",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Electric Kettle"]
+  },
+  {
+    "roomNumber": 211,
+    "block": "A",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Heater"]
+  },
+  {
+    "roomNumber": 373,
+    "block": "B",
+    "roomType": "Single",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toilet", "Washbasin"]
+  },
+  {
+    "roomNumber": 224,
+    "block": "C",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Toilet", "Shower"]
+  },
+  {
+    "roomNumber": 522,
+    "block": "B",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Washbasin", "Shower", "Toilet", "Air Conditioning", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 403,
+    "block": "E",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Heater", "Toaster", "Air Conditioning", "Toilet"]
+  },
+  {
+    "roomNumber": 50,
+    "block": "C",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Air Conditioning", "Toilet", "Fan", "Electric Kettle", "Toaster"]
+  },
+  {
+    "roomNumber": 509,
+    "block": "E",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Electric Kettle", "Air Conditioning", "Toilet"]
+  },
+  {
+    "roomNumber": 330,
+    "block": "B",
+    "roomType": "Double",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Toaster", "Washbasin", "Heater", "Air Conditioning", "Fan"]
+  },
+  {
+    "roomNumber": 184,
+    "block": "F",
+    "roomType": "Triple",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Fan", "Heater", "Air Conditioning", "Electric Kettle"]
+  },
+  {
+    "roomNumber": 301,
+    "block": "C",
+    "roomType": "Quad",
+    "maxCapacity": 1,
+    "currentOccupancy": [],
+    "amenities": ["Fan", "Washbasin"]
+  }
+]

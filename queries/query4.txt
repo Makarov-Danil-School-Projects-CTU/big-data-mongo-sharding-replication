@@ -1,0 +1,21 @@
+#4 Select events. Result must have event name, description, firstname and lastname of organizer 
+
+db.events.aggregate([
+  {
+    $lookup: {
+      from: "students",
+      localField: "organizer",
+      foreignField: "_id",
+      as: "organizer"
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      eventName: 1,
+      description: 1,
+      firstName: { $arrayElemAt: ["$organizer.firstName", 0] },
+      lastName: { $arrayElemAt: ["$organizer.lastName", 0] }
+    }
+  }
+])

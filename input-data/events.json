@@ -1,0 +1,50 @@
+[
+  {
+    "eventName": "Deskohraní",
+    "dateOfEvent": { "$date": "2023-10-28T10:00:00.000Z" },
+    "description": "Hraje se všechno možné",
+    "organizer": { "$oid": "65354509bf1c88f482915c4c" }
+  },
+  {
+    "eventName": "Akce Prvák",
+    "dateOfEvent": { "$date": "2023-11-04T10:00:00.000Z" },
+    "description": "Acke prvák 2023",
+    "organizer": { "$oid": "65354509bf1c88f482915c4c" }
+  },
+  {
+    "eventName": "Pod-O-Film",
+    "dateOfEvent": { "$date": "2023-11-10T10:00:00.000Z" },
+    "description": "Pod-o-film 2023 - koukame na filmy",
+    "organizer": { "$oid": "65354509bf1c88f482915c4b" }
+  },
+  {
+    "eventName": "Poznej sveho spravce 2023",
+    "dateOfEvent": { "$date": "2023-11-10T10:00:00.000Z" },
+    "description": "Poznej sveho spravce 2023 - seznameni s novymi spravci",
+    "organizer": { "$oid": "65354509bf1c88f482915c4a" }
+  },
+  {
+    "eventName": "Turnaj Deskoherna",
+    "dateOfEvent": { "$date": "2023-11-12T10:00:00.000Z" },
+    "description": "Turnaj Deskoherna 2023 - turnaj v deskovkach",
+    "organizer": { "$oid": "65354509bf1c88f482915c49" }
+  },
+  {
+    "eventName": "Halloween",
+    "dateOfEvent": { "$date": "2023-10-31T10:00:00.000Z" },
+    "description": "Turnaj Deskoherna 2023 - turnaj v deskovkach",
+    "organizer": { "$oid": "65354509bf1c88f482915c49" }
+  },
+  {
+    "eventName": "Fuckup night",
+    "dateOfEvent": { "$date": "2023-11-22T10:00:00.000Z" },
+    "description": "Fuckup night for everyone!!",
+    "organizer": { "$oid": "65354509bf1c88f482915c48" }
+  },
+  {
+    "eventName": "Podolský Benchpress",
+    "dateOfEvent": { "$date": "2023-11-25T10:00:00.000Z" },
+    "description": "Looks good!",
+    "organizer": { "$oid": "65354509bf1c88f482915c48" }
+  }
+]

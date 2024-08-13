@@ -1,0 +1,8 @@
+#8 Aggregate the total number of rooms per dormitory block
+
+db.dormitoryBlocks.aggregate([
+  {
+    $unwind: "$rooms"
+  },
+  { $group: { _id: "$name", totalRooms: { $sum: 1 } } }
+])

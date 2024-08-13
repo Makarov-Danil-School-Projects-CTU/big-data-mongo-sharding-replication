@@ -1,0 +1,42 @@
+#13 Select rooms which have 'Refrigerator' and 'Toilet' or 'Heater' and 'Toaster'. Use projection on roomNumber, block, amenities. 
+Count actual room occupancy and add info about who live there
+
+db.rooms.aggregate([
+    {
+        $match: {
+            $or: [
+                { amenities: { $all: ["Refrigerator", "Toilet"] } },
+                { amenities: { $all: ["Heater", "Toaster"] } }
+            ]
+        }
+    },
+    {
+        $lookup: {
+            from: "students",
+            localField: "currentOccupancy",
+            foreignField: "_id",
+            as: "residents"
+        }
+    },
+    {
+      $project: {
+        _id: 0,
+        roomNumber: 1,
+        block: 1,
+        amenities: 1,
+        occupancyCount: { $size: "$residents" },
+        residents: {
+        $map: {
+            input: "$residents",
+            as: "resident",
+            in: {
+                firstName: "$$resident.firstName",
+                lastName: "$$resident.lastName",
+                nationality: "$$resident.nationality",
+                DOB: "$$resident.DOB"
+            }
+          }
+        }
+      }
+    }
+]);

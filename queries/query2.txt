@@ -1,0 +1,18 @@
+#2 Choose students that live in 'B block' and have 'Air Conditioning'
+
+db.students.aggregate([
+    {
+        $lookup: {
+            from: "rooms",
+            localField: "roomNumber",
+            foreignField: "roomNumber",
+            as: "roomData"
+        }
+    },
+    {
+        $match: {
+            "roomData.amenities": "Air Conditioning",
+            "roomData.block": "B"
+        }
+    }
+]);
