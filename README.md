@@ -1,3 +1,5 @@
+Keywords: Mongo, Docker compose, Database Replication and Sharding
+
 📋 Task: Creation of 15 Non-Trivial, Interconnected Examples
 
 🛠️ Requirements:
